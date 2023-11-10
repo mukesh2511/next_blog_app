@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Blog
+This app sounds like a great platform for those who want to showcase their writing skills and share their thoughts with others. The ability to create and customize your own blog is a great feature that will allow users to express their creativity and personality. Additionally, the option to read other users' blogs could provide inspiration and knowledge on a wide range of topics. Overall, this portfolio-cum blog app has the potential to be a valuable tool for those who are passionate about writing and sharing their ideas with others. 
 
-## Getting Started
 
-First, run the development server:
+## Screenshots
+* Home
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![App Screenshot](https://github.com/mukesh2511/next_blog_app/blob/master/images/home.png)
+![App Screenshot](https://github.com/mukesh2511/next_blog_app/blob/master/images/home1.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* Portfolio
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+![App Screenshot](https://github.com/mukesh2511/next_blog_app/blob/master/images/portfolio.png)
+![App Screenshot](https://github.com/mukesh2511/next_blog_app/blob/master/images/portfolio_cat.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+* Blog
 
-## Learn More
+![App Screenshot](https://github.com/mukesh2511/next_blog_app/blob/master/images/blog.png)
+![App Screenshot](https://github.com/mukesh2511/next_blog_app/blob/master/images/blog1.png)
 
-To learn more about Next.js, take a look at the following resources:
+* Dashboard
+![App Screenshot](https://github.com/mukesh2511/next_blog_app/blob/master/images/dashboard.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* About
+![App Screenshot](https://github.com/mukesh2511/next_blog_app/blob/master/images/about.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+* Contact
+![App Screenshot](https://github.com/mukesh2511/next_blog_app/blob/master/images/contact.png)
 
-## Deploy on Vercel
+* Login
+![App Screenshot](https://github.com/mukesh2511/next_blog_app/blob/master/images/login.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+* Register
+![App Screenshot](https://github.com/mukesh2511/next_blog_app/blob/master/images/register.png)
