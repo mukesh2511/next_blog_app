@@ -3,9 +3,12 @@ import { notFound } from "next/navigation";
 import React from "react";
 
 const getData = async (id) => {
-  const res = await fetch(`http://localhost:3000/api/posts/${id}`, {
-    cache: "no-cache",
-  });
+  const res = await fetch(
+    `https://next-blog-cuxqsqzlv-mukeshs-projects-c3577dae.vercel.app/api/posts/${id}`,
+    {
+      cache: "no-cache",
+    }
+  );
   if (!res.ok) {
     return notFound();
   }
