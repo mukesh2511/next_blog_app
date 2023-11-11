@@ -55,6 +55,7 @@
 // };
 
 // export default BlogPost;
+"use client";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import React, { useEffect, useState } from "react";
