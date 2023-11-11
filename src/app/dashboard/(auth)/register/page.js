@@ -21,20 +21,17 @@ const Register = () => {
           position: "top-center",
         });
       } else {
-        const res = await fetch(
-          "https://next-blog-cuxqsqzlv-mukeshs-projects-c3577dae.vercel.app/api/auth/register",
-          {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify({
-              name,
-              email,
-              password,
-            }),
-          }
-        );
+        const res = await fetch("/api/auth/register", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            name,
+            email,
+            password,
+          }),
+        });
         if (res.status === 201) {
           toast.success("User created Successfully", {
             autoClose: 5000,
