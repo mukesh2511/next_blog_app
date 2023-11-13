@@ -25,11 +25,13 @@ body {
 .container {
   max-width: 1366px;
   min-height: 100vh;
-  margin: 0 auto;
-  padding: 0 60px;
+  /* margin: 0 auto; */
+  /* padding: 0 60px; */
+  padding: 0 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  overflow-x: hidden;
 }
 
 .image {

@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <ThemeProvider>
           <AuthProvider>
-            <div className="container">
+            <div className="container max-w-[100vh]  md:max-w-[1366px] min-h-screen md:mx-auto md:my-0 py-0 px-2 md:px-[60px] flex flex-col justify-between overflow-hidden">
               <Navbar />
               {children}
               <Footer />

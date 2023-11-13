@@ -69,12 +69,12 @@ const Navbar = () => {
           onClick={() => setToggle(!toggle)}
         />
         {toggle && (
-          <div className="items flex flex-col absolute border-2 pt-2 pb-2 pr-5 pl-2 top-10 right-[-40px] w-[30vw]   font-bold cursor-pointer z-10 bg-white">
+          <div className="items flex flex-col gap-3 absolute border-2 pt-2 pb-2 pr-5 pl-2 top-10 left-0  w-screen h-screen   font-bold cursor-pointer z-10 bg-[#ffffff] transition-opacity ">
             {links.map((link) => (
               <Link
                 key={link.id}
                 href={link.url}
-                className="hover:text-[#53c38b]"
+                className="hover:bg-[#53c38b] hover:text-black p-1 rounded-sm"
               >
                 {link.title}
                 <hr />
